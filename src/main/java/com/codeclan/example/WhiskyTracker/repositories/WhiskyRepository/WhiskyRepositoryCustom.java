@@ -8,4 +8,6 @@ public interface WhiskyRepositoryCustom {
 
     public List<Whisky> getWhiskyFromDistilleryOfCertainAge(int age, String name);
 
+    public List<Whisky> getWhiskyByRegion(String region);
+
 }
